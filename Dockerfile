@@ -1,4 +1,7 @@
+FROM python:3.9
+
 EXPOSE 3000
 
-CMD ["npm", "install"]
+RUN npm install
+
 CMD ["npm", "start"]
